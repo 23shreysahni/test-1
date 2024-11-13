@@ -10,6 +10,7 @@ const Home = () => {
     // Fetch notes when the component mounts
     useEffect(() => {
         getNotes();
+        
     }, []);
 
     // Fetch notes from API
